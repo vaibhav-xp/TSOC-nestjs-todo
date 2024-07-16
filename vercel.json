@@ -2,9 +2,6 @@
     "version": 2,
     "builds": [
         {
-            "env": {
-                "PRISMA_GENERATE": "true"
-            },
             "src": "src/main.ts",
             "use": "@vercel/node",
             "config": {
